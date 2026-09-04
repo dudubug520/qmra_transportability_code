@@ -1,50 +1,34 @@
-# Causal transportability of *Salmonella* QMRA — code and data
+# Data dictionary
 
-This repository accompanies the manuscript:
+## `QMRA_parameter_database.csv` (39 studies × 49 columns)
 
-> **Causal transportability of *Salmonella* quantitative microbial risk assessment: a selection-diagram criterion and an extrapolation-error estimate for China**
+The main parameter-extraction table. Columns are grouped as follows:
 
-It contains the analysis and figure-generation scripts (`code/`) and the 39-study parameter database (`data/`) that reproduce the results in the paper.
+| Field group | Columns | Content |
+|---|---|---|
+| Metadata | `pmid`, `first_author`, `year`, `journal`, `pathogen`, `food_commodity`, `country_region`, `context_desc` | Source and context |
+| Prevalence | `prev_stage`, `prev_value`, `prev_dist`, `prev_dist_params`, `prev_source` | Prevalence at each stage |
+| Concentration | `conc_unit`, `conc_dist`, `conc_mean`, `conc_sd`, `conc_source` | Contamination concentration |
+| Growth / inactivation | `growth_*`, `inact_*` | Kinetics (μ_opt, Tmin/Tmax, D, z, log-reduction) |
+| Cross-contamination / consumption | `cross_contam_*`, `serving_size_*`, `frequency`, `cooking_storage` | Exposure pathway |
+| Dose–response | `dr_model`, `dr_alpha`, `dr_beta`, `dr_r`, `dr_source` | Dose–response mechanism (invariant) |
+| Output | `predicted_risk`, `risk_unit`, `validated`, `validation_source` | Predicted risk and validation |
+| **Context covariates** | `cov_production_system`, `cov_climate_zone`, `cov_cold_chain`, `cov_population_susceptibility`, `cov_model_assumptions` | Basis for the transfer decision |
 
-## Contents
+The dose–response family (`dr_family` in the covariate matrix) encodes the canonical curves referenced in the paper (e.g. `fao_who_2002`, `who_feeding`, `egg_specific`, `virulence_stratified`, `teunis_2010`). A value of `none` marks a study that reports no dose–response.
 
+## `QMRA_context_covariates.csv` (39 studies × 21 columns)
 
-code/     R and Python scripts (analysis + figures + Table 1)
-data/     parameter database, context covariates, and search records (Table S1)
+Context covariates and derived fields: the categorical covariates above (production system, climate zone, cold chain, population susceptibility), plus the numerical dose–response family/parameters (`dr_family`, `dr_alpha`, `dr_beta`, `dr_r`) and the risk basis (`risk_basis`).
 
+## `QMRA_parameters_long.csv`
 
-## Requirements
+Long-form parameter values (one value per row), produced by `code/QMRA_reshape_long_covariates.py`.
 
-**R** (≥ 4.x) with: `bnlearn`, `gRain`, `brms`, `rstan`, `dagitty`.
+## `QMRA_LOCO_risk_normalized.csv`
 
-**Python** 3 with: `pandas`, `numpy` (optionally `pgmpy`, `pymc` for the BN equivalent).
+Per-serving illness probability normalized to a common endpoint, used for the leave-one-context-out test (n = 11 studies).
 
-## Reproduction
+## `QMRA_Salmonella_search_results.csv`
 
-| Result | Script |
-|---|---|
-| Selection diagram (Fig. 2) | `code/QMRA_selection_diagram.R` |
-| Dose–response decomposition (Δ_DR) | `code/QMRA_dose_response_decomposition.R` |
-| Exposure-pathway decomposition (Δ_exp) | `code/QMRA_exposure_pathway_decomposition.R` |
-| Leave-one-context-out (LOCO) test | `code/QMRA_LOCO_real.R` (n = 11), `code/QMRA_LOCO_synthetic.R` (8 synthetic contexts) |
-| Figures 1, 3, 4 | `code/QMRA_Figures.R` |
-| Table 1 | `code/QMRA_Table1.py` |
-| BN skeleton / transport-formula numerical check | `code/QMRA_bn_skeleton.R` |
-| Long-table and covariate construction | `code/QMRA_reshape_long_covariates.py` |
-
-`_append_qmra_rows.py` is a data-entry helper used while assembling the 39-study database; it is not needed to reproduce the reported results.
-
-## Data
-
-- `data/QMRA_parameter_database.csv` — 39 studies × 49 columns, the main parameter-extraction table.
-- `data/QMRA_context_covariates.csv` — 39 studies × 21 columns, context covariates + numerical dose–response + risk basis.
-- `data/QMRA_parameters_long.csv` — long-form parameters (one value per row).
-- `data/QMRA_LOCO_risk_normalized.csv` — per-serving illness probability normalized for the LOCO test.
-- `data/QMRA_Salmonella_search_results.csv` — the 152 PubMed *Salmonella* records from the search.
-- `data/QMRA_WoS_search_results.txt` — the 356-record Web of Science (Core Collection) export of the same search (351 with DOI; 128 shared with PubMed by DOI, leaving 380 unique records).
-
-Column descriptions are in `data/README.md`.
-
-## License
-
-Code: MIT. Data: CC-BY 4.0. *(choose and add the corresponding files before publishing)*
+The 108 PubMed *Salmonella* records from the primary search (columns: index, PMID, year, title, journal), used to construct the PRISMA flow (Fig. 1).

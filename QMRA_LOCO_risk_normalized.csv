@@ -1,0 +1,12 @@
+﻿pmid,label,country,commodity_group,climate_zone,production_sys,cold_chain,population,dr_family,risk_per_serving,log10_risk,unit_note
+19833032,Belgium-chicken-prep,Belgium,poultry_meat,temperate,retail,partial,general,fao_who_2003_set,1.26e-3,-2.8996,per portion (direct)
+38309878,EU-patties,EU,poultry_meat,temperate,processing,full,general,ensemble,1.19e-4,-3.9240,per patty (direct)
+38777091,USA-chicken-parts,USA,poultry_meat,temperate,processing,full,general,hierarchical,2.0e-6,-5.6990,per serving (direct)
+37969349,Korea-eggs,Korea,eggs,temperate,intensive,full,general,egg_specific,1.9e-7,-6.7212,"per serving, raw egg (direct)"
+32599476,Canada-broiler,Canada,poultry_meat,temperate,intensive,full,susceptible,fao_who_2002,5.18e-5,-4.2860,per 100k servings (÷100k)
+41097983,Beijing-chicken,China,poultry_meat,temperate,retail,partial,general,fao_who_2002,6.21e-5,-4.2072,per 100k meals (÷100k)
+41097550,Saudi-eggs,Saudi-Arabia,eggs,arid,retail,none,susceptible,pfarm_dt,2.0e-5,-4.6990,per 100k egg meals (÷100k)
+36230018,Thailand-pork,Thailand,pork,tropical,retail,partial,general,fao_who_2002,2.4e-4,-3.620,per serving (geometric median 2.2e-8~3.1e-4)
+30144103,Australia-pork,Australia,pork,temperate,retail,partial,general,fao_who_2002,1.54e-8,-7.812,per serving (direct)
+28648297,USA-pistachios,USA,nuts,arid,processing,none,general,fao_who_2002,1.4e-9,-8.854,1.4 cases/billion servings (direct)
+26857423,EU-pork,EU,pork,temperate,retail,full,general,fao_who_2002,3.16e-6,-5.500,per serving (geometric median 1e-5~1e-7)

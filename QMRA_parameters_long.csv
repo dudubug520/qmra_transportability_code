@@ -1,0 +1,723 @@
+﻿pmid,first_author,year,country_region,food_commodity,param_group,param_name,value_raw,value_num,source
+37969349,Oh H,2023,South Korea,eggs,prevalence,prev_stage,retail,,this study n=201
+37969349,Oh H,2023,South Korea,eggs,prevalence,prev_value,0/201 (0 detected) -> initial contamination -4.0 log,,this study n=201
+37969349,Oh H,2023,South Korea,eggs,prevalence,prev_dist,Beta,,this study n=201
+37969349,Oh H,2023,South Korea,eggs,prevalence,prev_dist_params,"Beta(1,202)",,this study n=201
+37969349,Oh H,2023,South Korea,eggs,prevalence,prev_source,this study n=201,,this study n=201
+37969349,Oh H,2023,South Korea,eggs,concentration,conc_unit,log CFU/g,,this study (0/201)
+37969349,Oh H,2023,South Korea,eggs,concentration,conc_dist,fixed value,,this study (0/201)
+37969349,Oh H,2023,South Korea,eggs,concentration,conc_mean,-4.0,-4.0,this study (0/201)
+37969349,Oh H,2023,South Korea,eggs,concentration,conc_source,this study (0/201),,this study (0/201)
+37969349,Oh H,2023,South Korea,eggs,growth,growth_model,Baranyi predictive model,,this study
+37969349,Oh H,2023,South Korea,eggs,growth,growth_mu_opt,"0.25±0.10 (30°C); see Table 1, μmax vs T",,this study
+37969349,Oh H,2023,South Korea,eggs,growth,growth_Tmin,5.31,5.31,this study
+37969349,Oh H,2023,South Korea,eggs,growth,growth_Tmax,30 (measured upper bound),,this study
+37969349,Oh H,2023,South Korea,eggs,growth,growth_source,this study,,this study
+37969349,Oh H,2023,South Korea,eggs,inactivation,inact_D_ref,cooking simplification (>74°C and >0.07 h -> 0),,this study
+37969349,Oh H,2023,South Korea,eggs,inactivation,inact_source,this study,,this study
+37969349,Oh H,2023,South Korea,eggs,consumption,serving_size_g,raw 39.2 / dry 43.0 / moist 36.1,,
+37969349,Oh H,2023,South Korea,eggs,consumption,serving_size_dist,exponential/Weibull,,
+37969349,Oh H,2023,South Korea,eggs,consumption,frequency,daily 60.1%,,
+37969349,Oh H,2023,South Korea,eggs,consumption,cooking_storage,raw 1.5% / dry-heat 57.5% / moist-heat 41%,,
+37969349,Oh H,2023,South Korea,eggs,dose_response,dr_model,Beta-Poisson,,WHO/FAO [ref35]
+37969349,Oh H,2023,South Korea,eggs,dose_response,dr_alpha,0.89,0.89,WHO/FAO [ref35]
+37969349,Oh H,2023,South Korea,eggs,dose_response,dr_beta,4.4e5,440000.0,WHO/FAO [ref35]
+37969349,Oh H,2023,South Korea,eggs,dose_response,dr_source,WHO/FAO [ref35],,WHO/FAO [ref35]
+37969349,Oh H,2023,South Korea,eggs,risk_output,predicted_risk,6.8e-10 (cooked) / 1.9e-7 (raw),,
+37969349,Oh H,2023,South Korea,eggs,risk_output,risk_unit,per serving/person/day,,
+37969349,Oh H,2023,South Korea,eggs,risk_output,validated,no,,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,prevalence,prev_stage,raw chicken,,"literature [14,29,30]"
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,prevalence,prev_value,36.98%,36.98,"literature [14,29,30]"
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,prevalence,prev_dist,Normal,,"literature [14,29,30]"
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,prevalence,prev_dist_params,"N(0.3698,0.2397)",,"literature [14,29,30]"
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,prevalence,prev_source,"literature [14,29,30]",,"literature [14,29,30]"
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,concentration,conc_unit,MPN/100g,,literature [17]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,concentration,conc_dist,Normal,,literature [17]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,concentration,conc_mean,91.6,91.6,literature [17]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,concentration,conc_sd,170.6,170.6,literature [17]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,concentration,conc_source,literature [17],,literature [17]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,growth,growth_model,"transport t1=LN(25.4h,1.08); T1=N(9.96°C,6.81)",,literature [20]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,growth,growth_source,literature [20],,literature [20]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,inactivation,inact_D_ref,logD(70℃)=-0.83 min,,literature [28]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,inactivation,inact_z,9.1,9.1,literature [28]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,inactivation,inact_source,literature [28],,literature [28]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,cross_contamination,cross_contam_rate,"PRK/PRB=10^N(0.171,0.162)%; PRH=10^N(0.71,0.42)%; PKC/PBC=10^N(1.458,0.298)%; PHC=10^Logistic(1.16,0.33)%",,literature [31-33]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,cross_contamination,cross_contam_dist,LogNormal,,literature [31-33]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,cross_contamination,cross_contam_source,literature [31-33],,literature [31-33]
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,consumption,serving_size_g,CR1=25.97 (age 4-18); CR2=34.02 (>19 yr),,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,consumption,serving_size_dist,Lognormal,,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,consumption,frequency,daily,,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,consumption,cooking_storage,"cooking T2=N(97°C,1.58), t2=60 min",,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,dose_response,dr_model,Beta-Poisson,,FAO/WHO 2002 (Ref[38])
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,dose_response,dr_alpha,0.1324,0.1324,FAO/WHO 2002 (Ref[38])
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,dose_response,dr_beta,51.45,51.45,FAO/WHO 2002 (Ref[38])
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,dose_response,dr_source,FAO/WHO 2002 (Ref[38]),,FAO/WHO 2002 (Ref[38])
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,risk_output,predicted_risk,2.94% (no washing) -> 1.93e-4% (soap washing),,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,risk_output,risk_unit,"infection rate per 100,000 (>19 yr)",,
+38034810,Lien KW,2023,"Taiwan, China",salted chicken,risk_output,validated,no,,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,prevalence,prev_stage,retail,,South Korea surveillance literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,prevalence,prev_value,~32%,,South Korea surveillance literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,prevalence,prev_dist,Pert,,South Korea surveillance literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,prevalence,prev_dist_params,"Pert(22.4,31.65,42.3)",,South Korea surveillance literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,prevalence,prev_source,South Korea surveillance literature,,South Korea surveillance literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,concentration,conc_unit,log CFU/g,,literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,concentration,conc_dist,Pert,,literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,concentration,conc_mean,"Pert(4.3,5.3,6.3)",,literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,concentration,conc_source,literature,,literature
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,growth,growth_model,square-root (Juneja 2007): GR=0.0019×(T-3.35)²×(1-exp(0.29×(T-48.01))),,Juneja et al 2007
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,growth,growth_Tmin,3.35,3.35,Juneja et al 2007
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,growth,growth_Tmax,48.01,48.01,Juneja et al 2007
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,growth,growth_source,Juneja et al 2007,,Juneja et al 2007
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,inactivation,inact_D_ref,D=10^(8.7344-0.1316×TeC) min,,Murphy et al 2002
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,inactivation,inact_source,Murphy et al 2002,,Murphy et al 2002
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,consumption,serving_size_g,"Pert(100,200,300)",,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,consumption,serving_size_dist,Pert,,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,consumption,frequency,—,,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,consumption,cooking_storage,"TeC=Pert(71×0.8,71,71×1.2)℃; TiC=Pert(10,15,20)min",,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,dose_response,dr_model,Beta-Poisson,,WHO 2002
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,dose_response,dr_alpha,0.3126,0.3126,WHO 2002
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,dose_response,dr_beta,2885,2885.0,WHO 2002
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,dose_response,dr_source,WHO 2002,,WHO 2002
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,risk_output,predicted_risk,~0.012 (monthly mean illness likelihood),,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,risk_output,risk_unit,per-serving illness probability,,
+30479510,Jeong J,2018,South Korea,chicken Dakgalbi,risk_output,validated,no,,
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,prevalence,prev_stage,retail,,"this study, SFDA"
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,prevalence,prev_value,7%,7.0,"this study, SFDA"
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,prevalence,prev_dist,empirical,,"this study, SFDA"
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,prevalence,prev_dist_params,7/100,,"this study, SFDA"
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,prevalence,prev_source,"this study, SFDA",,"this study, SFDA"
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,concentration,conc_unit,log10 growth units/egg,,this study
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,concentration,conc_dist,—,,this study
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,concentration,conc_mean,1.58,1.58,this study
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,concentration,conc_sd,range 0-3.08,,this study
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,concentration,conc_source,this study,,this study
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,dose_response,dr_model,PFARM illness-dose (not Beta-Poisson),,PFARM
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,dose_response,dr_source,PFARM,,PFARM
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,risk_output,predicted_risk,"88 infections + 2 illnesses/100,000 egg meals",,
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,risk_output,risk_unit,"per 100,000 egg meals",,
+41097550,Alsufyani AT,2025,"Saudi Arabia, Riyadh",eggs,risk_output,validated,no,,
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,prevalence,prev_stage,retail (arrival at retail),,Belgian national surveillance
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,prevalence,prev_value,18.5-29.3% (2001-2004),,Belgian national surveillance
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,prevalence,prev_source,Belgian national surveillance,,Belgian national surveillance
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,concentration,conc_unit,ln CFU/100g,,Belgian surveillance; fit to 3 percentiles
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,concentration,conc_dist,LogNormal,,Belgian surveillance; fit to 3 percentiles
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,concentration,conc_mean,-3.5 ln CFU/100g,,Belgian surveillance; fit to 3 percentiles
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,concentration,conc_sd,6.65 ln CFU/100g,,Belgian surveillance; fit to 3 percentiles
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,concentration,conc_source,Belgian surveillance; fit to 3 percentiles,,Belgian surveillance; fit to 3 percentiles
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,growth,growth_model,Oscar 1999 response surface (exp poly),,Oscar 1999 (J Food Prot 62:1470)
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,growth,growth_Tmin,10 C,10.0,Oscar 1999 (J Food Prot 62:1470)
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,growth,growth_lag,not modeled (ignored),,Oscar 1999 (J Food Prot 62:1470)
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,growth,growth_source,Oscar 1999 (J Food Prot 62:1470),,Oscar 1999 (J Food Prot 62:1470)
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,inactivation,inact_D_ref,10^(-0.139T+8.58) min,,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,inactivation,inact_log_reduction,tcooking/D,,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,inactivation,inact_source,FAO-WHO 2003,,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,cross_contamination,cross_contam_rate,"Pcross Pert(0.25,0.5,0.76)",,"FAO-WHO 2002; refs 7,40,41"
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,cross_contamination,cross_contam_dist,"Pert(-6,-2,-1) log prop",,"FAO-WHO 2002; refs 7,40,41"
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,cross_contamination,cross_contam_source,"FAO-WHO 2002; refs 7,40,41",,"FAO-WHO 2002; refs 7,40,41"
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,consumption,serving_size_g,100,100.0,
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,consumption,frequency,0.9 kg/yr per person; 90M portions/yr,,
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,consumption,cooking_storage,"heat treatment; undercook Pert(0.05,0.1,0.15)",,
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,dose_response,dr_model,Beta-Poisson,,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,dose_response,dr_alpha,a (2nd-order set),,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,dose_response,dr_beta,b (2nd-order set),,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,dose_response,dr_source,FAO-WHO 2003,,FAO-WHO 2003
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,risk_output,predicted_risk,1.26E-3 mean P(illness)/portion,,
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,risk_output,risk_unit,probability of illness per portion,,
+19833032,Uyttendaele,2009,Belgium,chicken meat preparations,risk_output,validated,no,,
+34954835,Godínez-Oviedo,2022,Mexico (central region),"mango, tomato, raw chicken",prevalence,prev_stage,retail,,"this study (300 mango, 272 tomato, 354 chicken)"
+34954835,Godínez-Oviedo,2022,Mexico (central region),"mango, tomato, raw chicken",prevalence,prev_value,chicken 24.9%; mango 1.3%; tomato 1.1%,,"this study (300 mango, 272 tomato, 354 chicken)"
+34954835,Godínez-Oviedo,2022,Mexico (central region),"mango, tomato, raw chicken",prevalence,prev_source,"this study (300 mango, 272 tomato, 354 chicken)",,"this study (300 mango, 272 tomato, 354 chicken)"
+34954835,Godínez-Oviedo,2022,Mexico (central region),"mango, tomato, raw chicken",concentration,conc_unit,Log MPN/g,,this study (MPN; MDS assay)
+34954835,Godínez-Oviedo,2022,Mexico (central region),"mango, tomato, raw chicken",concentration,conc_mean,chicken -0.61 Log MPN/g,,this study (MPN; MDS assay)
+34954835,Godínez-Oviedo,2022,Mexico (central region),"mango, tomato, raw chicken",concentration,conc_source,this study (MPN; MDS assay),,this study (MPN; MDS assay)
+11028959,Ebel,2000,United States,shell eggs,prevalence,prev_stage,production (layer flocks),,1991/1995 spent hen surveys
+11028959,Ebel,2000,United States,shell eggs,prevalence,prev_value,35% flocks SE-affected,,1991/1995 spent hen surveys
+11028959,Ebel,2000,United States,shell eggs,prevalence,prev_dist,Beta,,1991/1995 spent hen surveys
+11028959,Ebel,2000,United States,shell eggs,prevalence,prev_dist_params,"Beta(s+1,n-s+1); 247/711",,1991/1995 spent hen surveys
+11028959,Ebel,2000,United States,shell eggs,prevalence,prev_source,1991/1995 spent hen surveys,,1991/1995 spent hen surveys
+11028959,Ebel,2000,United States,shell eggs,consumption,cooking_storage,30% shell eggs pasteurized (egg products),,
+11028959,Ebel,2000,United States,shell eggs,risk_output,predicted_risk,"1 in 20,000 eggs (0.005%)",,"California pooled egg survey (Beta(2,28319))"
+11028959,Ebel,2000,United States,shell eggs,risk_output,risk_unit,fraction SE-contaminated eggs/yr,,"California pooled egg survey (Beta(2,28319))"
+11028959,Ebel,2000,United States,shell eggs,risk_output,validated,yes,,"California pooled egg survey (Beta(2,28319))"
+11028959,Ebel,2000,United States,shell eggs,risk_output,validation_source,"California pooled egg survey (Beta(2,28319))",,"California pooled egg survey (Beta(2,28319))"
+18260816,Latimer,2008,United States,pasteurized liquid egg products,prevalence,prev_stage,unpasteurized liquid egg product,,"Cook et al., 2004"
+18260816,Latimer,2008,United States,pasteurized liquid egg products,prevalence,prev_value,white 80%; whole 74%; yolk 67%,,"Cook et al., 2004"
+18260816,Latimer,2008,United States,pasteurized liquid egg products,prevalence,prev_source,"Cook et al., 2004",,"Cook et al., 2004"
+18260816,Latimer,2008,United States,pasteurized liquid egg products,concentration,conc_unit,CFU/mL,,FSIS national survey (MLE)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,concentration,conc_dist,Weibull,,FSIS national survey (MLE)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,concentration,conc_mean,white 83; whole 160; yolk 287,,FSIS national survey (MLE)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,concentration,conc_source,FSIS national survey (MLE),,FSIS national survey (MLE)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,growth,growth_model,"logistic + Ratkowsky, Baranyi",,Fehlhaber 1998; Bradshaw 1990
+18260816,Latimer,2008,United States,pasteurized liquid egg products,growth,growth_Tmax,45.6 C,45.6,Fehlhaber 1998; Bradshaw 1990
+18260816,Latimer,2008,United States,pasteurized liquid egg products,growth,growth_lag,lag:exp ratio = 5,,Fehlhaber 1998; Bradshaw 1990
+18260816,Latimer,2008,United States,pasteurized liquid egg products,growth,growth_source,Fehlhaber 1998; Bradshaw 1990,,Fehlhaber 1998; Bradshaw 1990
+18260816,Latimer,2008,United States,pasteurized liquid egg products,inactivation,inact_log_reduction,white 3.3; whole 5.9; yolk 5.5,,Froning 2002 lethality models
+18260816,Latimer,2008,United States,pasteurized liquid egg products,inactivation,inact_source,Froning 2002 lethality models,,Froning 2002 lethality models
+18260816,Latimer,2008,United States,pasteurized liquid egg products,cross_contamination,cross_contam_source,data gap; not modeled,,data gap; not modeled
+18260816,Latimer,2008,United States,pasteurized liquid egg products,consumption,serving_size_g,main 77.8; bev 182.5; ingr 36.0,,
+18260816,Latimer,2008,United States,pasteurized liquid egg products,consumption,serving_size_dist,Normal (mean+SD from CSFII),,
+18260816,Latimer,2008,United States,pasteurized liquid egg products,consumption,frequency,~47 billion servings/yr,,
+18260816,Latimer,2008,United States,pasteurized liquid egg products,consumption,cooking_storage,49% 4.9-log; 49% 6.1-log; 2% raw,,
+18260816,Latimer,2008,United States,pasteurized liquid egg products,dose_response,dr_model,Beta-Poisson,,FAO/WHO 2002
+18260816,Latimer,2008,United States,pasteurized liquid egg products,dose_response,dr_alpha,0.1324,0.1324,FAO/WHO 2002
+18260816,Latimer,2008,United States,pasteurized liquid egg products,dose_response,dr_beta,51.45,51.45,FAO/WHO 2002
+18260816,Latimer,2008,United States,pasteurized liquid egg products,dose_response,dr_source,FAO/WHO 2002,,FAO/WHO 2002
+18260816,Latimer,2008,United States,pasteurized liquid egg products,risk_output,predicted_risk,"5,526 annual illnesses (baseline)",,anchored to surveillance (w=0.37)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,risk_output,risk_unit,annual illnesses,,anchored to surveillance (w=0.37)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,risk_output,validated,yes,,anchored to surveillance (w=0.37)
+18260816,Latimer,2008,United States,pasteurized liquid egg products,risk_output,validation_source,anchored to surveillance (w=0.37),,anchored to surveillance (w=0.37)
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),prevalence,prev_stage,retail raw chicken,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),prevalence,prev_value,RP1 20.8%; RP2 25.5%,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),prevalence,prev_dist,Beta,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),prevalence,prev_dist_params,"RP1 Beta(43,161); RP2 Beta(27,77)",,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),prevalence,prev_source,Godinez-Oviedo et al. 2021,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),concentration,conc_unit,log MPN/g (=log CFU/g),,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),concentration,conc_dist,Normal (truncated),,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),concentration,conc_mean,RP1 -0.497; RP2 -0.806,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),concentration,conc_sd,RP1 0.532; RP2 0.569,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),concentration,conc_source,Godinez-Oviedo et al. 2021,,Godinez-Oviedo et al. 2021
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),growth,growth_model,quadratic polynomial (Oscar 2007),,Oscar 2007
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),growth,growth_Tmin,9.2 C,9.2,Oscar 2007
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),growth,growth_lag,not considered,,Oscar 2007
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),growth,growth_source,Oscar 2007,,Oscar 2007
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),inactivation,inact_D_ref,D = 10^(-0.139*T + 8.58),,FAO/WHO 2002; Dookeran 2012
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),inactivation,inact_log_reduction,baked 1e-5; grilled 1.2e-4,,FAO/WHO 2002; Dookeran 2012
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),inactivation,inact_source,FAO/WHO 2002; Dookeran 2012,,FAO/WHO 2002; Dookeran 2012
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),cross_contamination,cross_contam_rate,TR1 0.005-3.48%; TR2 32-94%,,Kusumaningrum 2004; Ravishankar 2010
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),cross_contamination,cross_contam_dist,Pert,,Kusumaningrum 2004; Ravishankar 2010
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),cross_contamination,cross_contam_source,Kusumaningrum 2004; Ravishankar 2010,,Kusumaningrum 2004; Ravishankar 2010
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),consumption,serving_size_g,Cumul 28.7-450 g,,
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),consumption,serving_size_dist,"Cumulative (28.7, 450)",,
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),consumption,frequency,"weekly Cumul(1,7)",,
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),consumption,cooking_storage,baked/grilled/breaded/fried/boiled,,
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),dose_response,dr_model,"Beta-Poisson (3, by virulence)",,Latimer 2001; FAO/WHO 2002
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),dose_response,dr_alpha,low 9.31e4; mod 9.21e3; high 0.1324,,Latimer 2001; FAO/WHO 2002
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),dose_response,dr_beta,low 9.99e12; mod 3.165e10; high 51.54,,Latimer 2001; FAO/WHO 2002
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),dose_response,dr_source,Latimer 2001; FAO/WHO 2002,,Latimer 2001; FAO/WHO 2002
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),risk_output,predicted_risk,"66,754 cases/yr (CI 10,775-231,606)",,
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),risk_output,risk_unit,annual salmonellosis cases,,
+36461177,Godínez-Oviedo,2022,Mexico (central region),chicken meat (pieces/fillets),risk_output,validated,no,,
+34086915,Oscar,2021,United States,chicken liver,prevalence,prev_stage,chicken liver (meal preparation),,this study (WSE-qPCR)
+34086915,Oscar,2021,United States,chicken liver,prevalence,prev_value,72.5% (58/80),,this study (WSE-qPCR)
+34086915,Oscar,2021,United States,chicken liver,prevalence,prev_dist,discrete (serotype),,this study (WSE-qPCR)
+34086915,Oscar,2021,United States,chicken liver,prevalence,prev_source,this study (WSE-qPCR),,this study (WSE-qPCR)
+34086915,Oscar,2021,United States,chicken liver,concentration,conc_unit,log MPN/58 g (per liver),,this study
+34086915,Oscar,2021,United States,chicken liver,concentration,conc_dist,"Pert(0,1.5,5)",,this study
+34086915,Oscar,2021,United States,chicken liver,concentration,conc_mean,median 1.76 log MPN/58 g,,this study
+34086915,Oscar,2021,United States,chicken liver,concentration,conc_source,this study,,this study
+34086915,Oscar,2021,United States,chicken liver,consumption,serving_size_g,58 g (1 liver) to 464 g (8 livers),,
+34086915,Oscar,2021,United States,chicken liver,consumption,serving_size_dist,function of serving size,,
+34086915,Oscar,2021,United States,chicken liver,consumption,cooking_storage,meal preparation (often undercooked),,
+34086915,Oscar,2021,United States,chicken liver,dose_response,dr_model,"disease triangle (described, not used)",,Oscar 2020
+34086915,Oscar,2021,United States,chicken liver,dose_response,dr_source,Oscar 2020,,Oscar 2020
+34086915,Oscar,2021,United States,chicken liver,risk_output,validated,yes,,predictions matched observed (58 g)
+34086915,Oscar,2021,United States,chicken liver,risk_output,validation_source,predictions matched observed (58 g),,predictions matched observed (58 g)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,prevalence,prev_stage,retail,,2022 Beijing surveillance (this study)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,prevalence,prev_value,8.87%,8.87,2022 Beijing surveillance (this study)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,prevalence,prev_dist,Beta,,2022 Beijing surveillance (this study)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,prevalence,prev_dist_params,"Beta(22,266)",,2022 Beijing surveillance (this study)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,prevalence,prev_source,2022 Beijing surveillance (this study),,2022 Beijing surveillance (this study)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,concentration,conc_unit,logMPN/g,,this study (2022 Beijing surveillance)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,concentration,conc_dist,Cumul/Discrete,,this study (2022 Beijing surveillance)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,concentration,conc_mean,-2.98,-2.98,this study (2022 Beijing surveillance)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,concentration,conc_source,this study (2022 Beijing surveillance),,this study (2022 Beijing surveillance)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,growth,growth_model,Baranyi + Ratkowsky square-root,,ComBase database and literature [4-6]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,growth,growth_mu_opt,umax=0.00019(T-3.35)(1-exp(0.29(T-48.01))),,ComBase database and literature [4-6]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,growth,growth_Tmin,3.35,3.35,ComBase database and literature [4-6]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,growth,growth_Tmax,48.01,48.01,ComBase database and literature [4-6]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,growth,growth_source,ComBase database and literature [4-6],,ComBase database and literature [4-6]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,inactivation,inact_D_ref,D=10^(-0.139*Tc+8.58),,literature [5]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,inactivation,inact_log_reduction,linear model N(t)=N0-t/D,,literature [5]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,inactivation,inact_source,literature [5],,literature [5]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,cross_contamination,cross_contam_rate,"hand 0.0729, knife 0.0241, cutting board 0.4293",,"literature [11,12]"
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,cross_contamination,cross_contam_source,"literature [11,12]",,"literature [11,12]"
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,consumption,serving_size_g,50-300,,
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,consumption,serving_size_dist,"Pert(50,150,300)",,
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,consumption,frequency,75% of population eats chicken at least once/year,,
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,consumption,cooking_storage,refrigerated 5.4°C / frozen / room-temperature + cooking,,
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,dose_response,dr_model,Beta-Poisson,,FAO/WHO [17]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,dose_response,dr_alpha,0.132,0.132,FAO/WHO [17]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,dose_response,dr_beta,51.45,51.45,FAO/WHO [17]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,dose_response,dr_source,FAO/WHO [17],,FAO/WHO [17]
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,risk_output,predicted_risk,6.21,6.21,compared with Shanghai (8.32) / Nanjing (20.7-29.9)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,risk_output,risk_unit,"per meal/100,000",,compared with Shanghai (8.32) / Nanjing (20.7-29.9)
+41097983,Wu Yangbo,2025,"Beijing, China",raw chicken,risk_output,validation_source,compared with Shanghai (8.32) / Nanjing (20.7-29.9),,compared with Shanghai (8.32) / Nanjing (20.7-29.9)
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,prevalence,prev_stage,farm (flock),,Government of Canada 2015a
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,prevalence,prev_value,31.3%,31.3,Government of Canada 2015a
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,prevalence,prev_dist,Beta,,Government of Canada 2015a
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,prevalence,prev_dist_params,"Beta(3,96)",,Government of Canada 2015a
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,prevalence,prev_source,Government of Canada 2015a,,Government of Canada 2015a
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,concentration,conc_unit,CFU/g feces,,Collineau et al. 2020
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,concentration,conc_dist,Lognormal,,Collineau et al. 2020
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,concentration,conc_mean,3791,3791.0,Collineau et al. 2020
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,concentration,conc_sd,8056,8056.0,Collineau et al. 2020
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,concentration,conc_source,Collineau et al. 2020,,Collineau et al. 2020
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,growth,growth_model,van Gerwen & Zwietering G factor,,ICMFS 1996
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,growth,growth_mu_opt,"Topt=39.0C, tgen_min=0.3h",,ICMFS 1996
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,growth,growth_Tmin,5.2,5.2,ICMFS 1996
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,growth,growth_source,ICMFS 1996,,ICMFS 1996
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,inactivation,inact_D_ref,D=10^(-0.139*T+8.58) min,,FAO/WHO 2002
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,inactivation,inact_source,FAO/WHO 2002,,FAO/WHO 2002
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,cross_contamination,cross_contam_rate,tsf=Prop_loose*V_ing/V_dil,,FAO/WHO 2009
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,cross_contamination,cross_contam_source,FAO/WHO 2009,,FAO/WHO 2009
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,consumption,serving_size_g,breast 111.6 / carcass 1495.3,,
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,consumption,serving_size_dist,Gamma,,
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,consumption,frequency,30.01 kg/capita/yr,,
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,consumption,cooking_storage,retail/home refrigeration-freezing + cooking (undercook),,
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,dose_response,dr_model,Beta-binomial,,FAO/WHO 2002
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,dose_response,dr_alpha,0.1324,0.1324,FAO/WHO 2002
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,dose_response,dr_beta,51.45,51.45,FAO/WHO 2002
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,dose_response,dr_source,FAO/WHO 2002,,FAO/WHO 2002
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,risk_output,predicted_risk,5.18,5.18,NESP/FoodNet Canada surveillance
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,risk_output,risk_unit,"per 100,000 servings",,NESP/FoodNet Canada surveillance
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,risk_output,validated,yes,,NESP/FoodNet Canada surveillance
+32599476,Collineau,2020,Canada,broiler chicken breast & carcass,risk_output,validation_source,NESP/FoodNet Canada surveillance,,NESP/FoodNet Canada surveillance
+42155255,Sun,2026,"Shanghai, China",raw chicken,prevalence,prev_stage,retail,,"this study, qualitative detection"
+42155255,Sun,2026,"Shanghai, China",raw chicken,prevalence,prev_value,31.25%(A)/30.00%(B),,"this study, qualitative detection"
+42155255,Sun,2026,"Shanghai, China",raw chicken,prevalence,prev_source,"this study, qualitative detection",,"this study, qualitative detection"
+42155255,Sun,2026,"Shanghai, China",raw chicken,concentration,conc_unit,MPN/g,,hierarchical Bayes (this study)
+42155255,Sun,2026,"Shanghai, China",raw chicken,concentration,conc_dist,zero-inflated Poisson (ZIP),,hierarchical Bayes (this study)
+42155255,Sun,2026,"Shanghai, China",raw chicken,concentration,conc_mean,0.43(A)/0.44(B),,hierarchical Bayes (this study)
+42155255,Sun,2026,"Shanghai, China",raw chicken,concentration,conc_sd,0.02,0.02,hierarchical Bayes (this study)
+42155255,Sun,2026,"Shanghai, China",raw chicken,concentration,conc_source,hierarchical Bayes (this study),,hierarchical Bayes (this study)
+38309878,Stathas,2024,EU,fresh chicken patties,prevalence,prev_stage,broiler feces/litter before processing,,Literature review (26 papers)
+38309878,Stathas,2024,EU,fresh chicken patties,prevalence,prev_value,3.27%,3.27,Literature review (26 papers)
+38309878,Stathas,2024,EU,fresh chicken patties,prevalence,prev_dist,Beta,,Literature review (26 papers)
+38309878,Stathas,2024,EU,fresh chicken patties,prevalence,prev_dist_params,"Beta(8696, 257015)",,Literature review (26 papers)
+38309878,Stathas,2024,EU,fresh chicken patties,prevalence,prev_source,Literature review (26 papers),,Literature review (26 papers)
+38309878,Stathas,2024,EU,fresh chicken patties,concentration,conc_unit,logCFU/g,,Literature review (Wales et al. 2006)
+38309878,Stathas,2024,EU,fresh chicken patties,concentration,conc_dist,Empirical,,Literature review (Wales et al. 2006)
+38309878,Stathas,2024,EU,fresh chicken patties,concentration,conc_mean,2.91,2.91,Literature review (Wales et al. 2006)
+38309878,Stathas,2024,EU,fresh chicken patties,concentration,conc_sd,1.44,1.44,Literature review (Wales et al. 2006)
+38309878,Stathas,2024,EU,fresh chicken patties,concentration,conc_source,Literature review (Wales et al. 2006),,Literature review (Wales et al. 2006)
+38309878,Stathas,2024,EU,fresh chicken patties,growth,growth_model,Cardinal model (Rosso 1993),,Oscar 2002
+38309878,Stathas,2024,EU,fresh chicken patties,growth,growth_mu_opt,0.73 h-1,,Oscar 2002
+38309878,Stathas,2024,EU,fresh chicken patties,growth,growth_Tmin,5.7 C,5.7,Oscar 2002
+38309878,Stathas,2024,EU,fresh chicken patties,growth,growth_Tmax,49.3 C,49.3,Oscar 2002
+38309878,Stathas,2024,EU,fresh chicken patties,growth,growth_lag,h0/mumax (Baranyi & Roberts),,Oscar 2002
+38309878,Stathas,2024,EU,fresh chicken patties,growth,growth_source,Oscar 2002,,Oscar 2002
+38309878,Stathas,2024,EU,fresh chicken patties,inactivation,inact_log_reduction,mean 4.05 logCFU/g,,"Moller 2015; D,z from 5 studies"
+38309878,Stathas,2024,EU,fresh chicken patties,inactivation,inact_source,"Moller 2015; D,z from 5 studies",,"Moller 2015; D,z from 5 studies"
+38309878,Stathas,2024,EU,fresh chicken patties,cross_contamination,cross_contam_source,"evisceration exp(Normal(1.6,0.9))",,"evisceration exp(Normal(1.6,0.9))"
+38309878,Stathas,2024,EU,fresh chicken patties,consumption,serving_size_g,100,100.0,
+38309878,Stathas,2024,EU,fresh chicken patties,consumption,frequency,400 g/capita/yr (~4 patties),,
+38309878,Stathas,2024,EU,fresh chicken patties,consumption,cooking_storage,retail+domestic chill; grill/pan cook,,
+38309878,Stathas,2024,EU,fresh chicken patties,dose_response,dr_model,Pert of 8 published DR models,,8 published models (7 studies)
+38309878,Stathas,2024,EU,fresh chicken patties,dose_response,dr_source,8 published models (7 studies),,8 published models (7 studies)
+38309878,Stathas,2024,EU,fresh chicken patties,risk_output,predicted_risk,1.19e-4 illness; 2.13/100k/yr,,compared to literature QMRAs
+38309878,Stathas,2024,EU,fresh chicken patties,risk_output,risk_unit,prob illness per patty; /100k/yr,,compared to literature QMRAs
+38309878,Stathas,2024,EU,fresh chicken patties,risk_output,validated,no,,compared to literature QMRAs
+38309878,Stathas,2024,EU,fresh chicken patties,risk_output,validation_source,compared to literature QMRAs,,compared to literature QMRAs
+31099597,Jeong,2019,South Korea,chicken skewers,prevalence,prev_stage,wholesale (broiler shops),,Hyeon et al. 2011
+31099597,Jeong,2019,South Korea,chicken skewers,prevalence,prev_value,0.25,0.25,Hyeon et al. 2011
+31099597,Jeong,2019,South Korea,chicken skewers,prevalence,prev_dist,Discrete,,Hyeon et al. 2011
+31099597,Jeong,2019,South Korea,chicken skewers,prevalence,prev_dist_params,"Discrete([0,1],[75,25])",,Hyeon et al. 2011
+31099597,Jeong,2019,South Korea,chicken skewers,prevalence,prev_source,Hyeon et al. 2011,,Hyeon et al. 2011
+31099597,Jeong,2019,South Korea,chicken skewers,concentration,conc_unit,log CFU/g,,Lay et al. 2011 (Cambodia)
+31099597,Jeong,2019,South Korea,chicken skewers,concentration,conc_dist,Discrete + Uniform within bins,,Lay et al. 2011 (Cambodia)
+31099597,Jeong,2019,South Korea,chicken skewers,concentration,conc_source,Lay et al. 2011 (Cambodia),,Lay et al. 2011 (Cambodia)
+31099597,Jeong,2019,South Korea,chicken skewers,growth,growth_model,Baranyi secondary (Juneja 2007),,Juneja et al. 2007; Murphy & Marks 2000
+31099597,Jeong,2019,South Korea,chicken skewers,growth,growth_Tmin,5.2 C,5.2,Juneja et al. 2007; Murphy & Marks 2000
+31099597,Jeong,2019,South Korea,chicken skewers,growth,growth_Tmax,46.2 C,46.2,Juneja et al. 2007; Murphy & Marks 2000
+31099597,Jeong,2019,South Korea,chicken skewers,growth,growth_source,Juneja et al. 2007; Murphy & Marks 2000,,Juneja et al. 2007; Murphy & Marks 2000
+31099597,Jeong,2019,South Korea,chicken skewers,inactivation,inact_D_ref,10^(8.7344-0.1316*T),,Murphy et al. 2002
+31099597,Jeong,2019,South Korea,chicken skewers,inactivation,inact_log_reduction,LCR = time/D-value,,Murphy et al. 2002
+31099597,Jeong,2019,South Korea,chicken skewers,inactivation,inact_source,Murphy et al. 2002,,Murphy et al. 2002
+31099597,Jeong,2019,South Korea,chicken skewers,cross_contamination,cross_contam_source,excluded (no data),,excluded (no data)
+31099597,Jeong,2019,South Korea,chicken skewers,consumption,serving_size_g,25,25.0,
+31099597,Jeong,2019,South Korea,chicken skewers,consumption,frequency,1 skewer per serving,,
+31099597,Jeong,2019,South Korea,chicken skewers,consumption,cooking_storage,preheat + hold + reheat; ambient,,
+31099597,Jeong,2019,South Korea,chicken skewers,dose_response,dr_model,Beta-Poisson,,WHO/FAO (non-typhi feeding trial)
+31099597,Jeong,2019,South Korea,chicken skewers,dose_response,dr_alpha,0.3126,0.3126,WHO/FAO (non-typhi feeding trial)
+31099597,Jeong,2019,South Korea,chicken skewers,dose_response,dr_beta,2885,2885.0,WHO/FAO (non-typhi feeding trial)
+31099597,Jeong,2019,South Korea,chicken skewers,dose_response,dr_source,WHO/FAO (non-typhi feeding trial),,WHO/FAO (non-typhi feeding trial)
+31099597,Jeong,2019,South Korea,chicken skewers,risk_output,risk_unit,probability of illness per skewer,,
+31099597,Jeong,2019,South Korea,chicken skewers,risk_output,validated,no,,
+38777091,Kim,2024,USA,raw chicken parts,prevalence,prev_stage,finished product (raw chicken parts),,USDA-FSIS Baseline 2012; HACCP 2023
+38777091,Kim,2024,USA,raw chicken parts,prevalence,prev_value,28.9% 2012; 8.6% 2023 HACCP,,USDA-FSIS Baseline 2012; HACCP 2023
+38777091,Kim,2024,USA,raw chicken parts,prevalence,prev_source,USDA-FSIS Baseline 2012; HACCP 2023,,USDA-FSIS Baseline 2012; HACCP 2023
+38777091,Kim,2024,USA,raw chicken parts,concentration,conc_unit,Log CFU/g,,USDA-FSIS Baseline parts; HACCP data
+38777091,Kim,2024,USA,raw chicken parts,concentration,conc_dist,Lognormal,,USDA-FSIS Baseline parts; HACCP data
+38777091,Kim,2024,USA,raw chicken parts,concentration,conc_mean,-3.19 (2012); -5.53 (2023),,USDA-FSIS Baseline parts; HACCP data
+38777091,Kim,2024,USA,raw chicken parts,concentration,conc_sd,1.29 (2012); 2.45 (2023),,USDA-FSIS Baseline parts; HACCP data
+38777091,Kim,2024,USA,raw chicken parts,concentration,conc_source,USDA-FSIS Baseline parts; HACCP data,,USDA-FSIS Baseline parts; HACCP data
+38777091,Kim,2024,USA,raw chicken parts,inactivation,inact_log_reduction,scaling factor -3.96 to -6.82 Log,,aggregate Log reduction (scaling factor)
+38777091,Kim,2024,USA,raw chicken parts,inactivation,inact_source,aggregate Log reduction (scaling factor),,aggregate Log reduction (scaling factor)
+38777091,Kim,2024,USA,raw chicken parts,cross_contamination,cross_contam_source,scaling factor incl cross-contam,,scaling factor incl cross-contam
+38777091,Kim,2024,USA,raw chicken parts,consumption,serving_size_g,114,114.0,
+38777091,Kim,2024,USA,raw chicken parts,consumption,serving_size_dist,"Lognormal mean 2.06, SD 0.23 Log g",,
+38777091,Kim,2024,USA,raw chicken parts,consumption,frequency,271 servings/person/yr,,
+38777091,Kim,2024,USA,raw chicken parts,consumption,cooking_storage,scaling factor for retail+cooking,,
+38777091,Kim,2024,USA,raw chicken parts,dose_response,dr_model,Beta-Poisson; hierarchical (Teunis),,WHO/FAO 2002; Teunis 2022; Anatum DR
+38777091,Kim,2024,USA,raw chicken parts,dose_response,dr_source,WHO/FAO 2002; Teunis 2022; Anatum DR,,WHO/FAO 2002; Teunis 2022; Anatum DR
+38777091,Kim,2024,USA,raw chicken parts,risk_output,predicted_risk,2.0e-6 per serving (baseline),,calibrated to US salmonellosis burden
+38777091,Kim,2024,USA,raw chicken parts,risk_output,risk_unit,prob illness/serving; relative risk %,,calibrated to US salmonellosis burden
+38777091,Kim,2024,USA,raw chicken parts,risk_output,validated,no,,calibrated to US salmonellosis burden
+38777091,Kim,2024,USA,raw chicken parts,risk_output,validation_source,calibrated to US salmonellosis burden,,calibrated to US salmonellosis burden
+37075983,Thomas P. Oscar,2023,USA,Chicken Gizzards,consumption,serving_size_g,168,168.0,
+37075983,Thomas P. Oscar,2023,USA,Chicken Gizzards,consumption,serving_size_dist,"56,112,168,224,280 g",56112168224280.0,
+37075983,Thomas P. Oscar,2023,USA,Chicken Gizzards,dose_response,dr_model,DT dose-response (PERTID),,HFT PERTID; validated w/ HOI (Teunis 2010)
+37075983,Thomas P. Oscar,2023,USA,Chicken Gizzards,dose_response,dr_source,HFT PERTID; validated w/ HOI (Teunis 2010),,HFT PERTID; validated w/ HOI (Teunis 2010)
+37075983,Thomas P. Oscar,2023,USA,Chicken Gizzards,risk_output,validated,yes,,"APZ method, pAPZ 0.87-1.0"
+37075983,Thomas P. Oscar,2023,USA,Chicken Gizzards,risk_output,validation_source,"APZ method, pAPZ 0.87-1.0",,"APZ method, pAPZ 0.87-1.0"
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),prevalence,prev_stage,Start of meal preparation (N1),,Oscar 2023b (initial contamination)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),prevalence,prev_value,70.8%,70.8,Oscar 2023b (initial contamination)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),prevalence,prev_source,Oscar 2023b (initial contamination),,Oscar 2023b (initial contamination)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),concentration,conc_unit,log CFU/g,,"Native microflora PERT(2.5,4.5,7) log/g"
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),concentration,conc_dist,PERT,,"Native microflora PERT(2.5,4.5,7) log/g"
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),concentration,conc_source,"Native microflora PERT(2.5,4.5,7) log/g",,"Native microflora PERT(2.5,4.5,7) log/g"
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),growth,growth_model,ANN (Newport on lettuce),,"Oscar 2020a (ANN, 0-8h, 16-40C)"
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),growth,growth_source,"Oscar 2020a (ANN, 0-8h, 16-40C)",,"Oscar 2020a (ANN, 0-8h, 16-40C)"
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),inactivation,inact_D_ref,D=2.94 min @62.8C,,Murphy et al. 2002 (chicken patties)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),inactivation,inact_z,7.6 C,7.6,Murphy et al. 2002 (chicken patties)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),inactivation,inact_log_reduction,0.01-96 log/g (by cooked temp),,Murphy et al. 2002 (chicken patties)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),inactivation,inact_source,Murphy et al. 2002 (chicken patties),,Murphy et al. 2002 (chicken patties)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),cross_contamination,cross_contam_rate,0.5-2% CG->fomite; 0-40% fomite->RTE,,Pouillot 2012; Ravishankar 2010
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),cross_contamination,cross_contam_dist,Uniform; Discrete+Uniform,,Pouillot 2012; Ravishankar 2010
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),cross_contamination,cross_contam_source,Pouillot 2012; Ravishankar 2010,,Pouillot 2012; Ravishankar 2010
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),consumption,serving_size_g,168,168.0,
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),consumption,serving_size_dist,"56,112,168,224,280 g",56112168224280.0,
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),consumption,cooking_storage,Oven 350F (177C) cook; cool <120F,,
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),risk_output,predicted_risk,DC 272±27 CG; 6050±4929 lettuce/1000kg,,APZ method (growth & inact models)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),risk_output,risk_unit,Salmonella dose per 1000 kg,,APZ method (growth & inact models)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),risk_output,validated,yes,,APZ method (growth & inact models)
+38360409,Thomas P. Oscar,2024,USA,Chicken Gizzards (+lettuce),risk_output,validation_source,APZ method (growth & inact models),,APZ method (growth & inact models)
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,prevalence,prev_stage,Farm (live chicken),,Andoh 2016; Raufu 2009; Dione 2009
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,prevalence,prev_value,0.46,0.46,Andoh 2016; Raufu 2009; Dione 2009
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,prevalence,prev_dist,"Uniform (truncated 0,1)",,Andoh 2016; Raufu 2009; Dione 2009
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,prevalence,prev_dist_params,"0, 0.46",,Andoh 2016; Raufu 2009; Dione 2009
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,prevalence,prev_source,Andoh 2016; Raufu 2009; Dione 2009,,Andoh 2016; Raufu 2009; Dione 2009
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,concentration,conc_unit,log10 CFU/g,,"PERT(0,3.579,4.294) feces; Collineau"
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,concentration,conc_dist,PERT,,"PERT(0,3.579,4.294) feces; Collineau"
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,concentration,conc_source,"PERT(0,3.579,4.294) feces; Collineau",,"PERT(0,3.579,4.294) feces; Collineau"
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,growth,growth_model,Cardinal model,,Pouillot 2012; mu_opt Oscar 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,growth,growth_mu_opt,0.732 log10CFU/h,,Pouillot 2012; mu_opt Oscar 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,growth,growth_Tmin,5.7 C,5.7,Pouillot 2012; mu_opt Oscar 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,growth,growth_Tmax,49.3 C,49.3,Pouillot 2012; mu_opt Oscar 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,growth,growth_lag,not considered,,Pouillot 2012; mu_opt Oscar 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,growth,growth_source,Pouillot 2012; mu_opt Oscar 2002,,Pouillot 2012; mu_opt Oscar 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,inactivation,inact_D_ref,10^(-0.139T+8.58) min (Salm),,FAO/WHO 2002; Benamar 2021
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,inactivation,inact_log_reduction,tProt/DProt (protected area),,FAO/WHO 2002; Benamar 2021
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,inactivation,inact_source,FAO/WHO 2002; Benamar 2021,,FAO/WHO 2002; Benamar 2021
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,cross_contamination,cross_contam_rate,mean 4.44% (chicken->hands),,Luber 2006; Verhoeff-Bakkenes 2008
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,cross_contamination,cross_contam_dist,"LogNorm, PERT, Beta",,Luber 2006; Verhoeff-Bakkenes 2008
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,cross_contamination,cross_contam_source,Luber 2006; Verhoeff-Bakkenes 2008,,Luber 2006; Verhoeff-Bakkenes 2008
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,consumption,serving_size_g,"Pert(800,920,1000) g carcass",,
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,consumption,serving_size_dist,"Pert; CKeatprop Pert(1/8,1/4,1)",,
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,consumption,frequency,"Pert(0,4,8)/yr low; (0,2,4)/wk high",,
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,consumption,cooking_storage,Ambient 22.5-35.6C hold; undercook P=0.1,,
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,dose_response,dr_model,Beta-Poisson,,FAO/WHO 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,dose_response,dr_alpha,0.1324,0.1324,FAO/WHO 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,dose_response,dr_beta,51.45,51.45,FAO/WHO 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,dose_response,dr_source,FAO/WHO 2002,,FAO/WHO 2002
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,risk_output,predicted_risk,Salm 2713/4745;Camp 6482/12145 per100k,,Compared to Havelaar 2022 (top-down)
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,risk_output,risk_unit,"cases/100,000 persons/year",,Compared to Havelaar 2022 (top-down)
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,risk_output,validated,no,,Compared to Havelaar 2022 (top-down)
+38422679,James Noah Ssemanda,2024,Burkina Faso & Ethiopia,Chicken meat,risk_output,validation_source,Compared to Havelaar 2022 (top-down),,Compared to Havelaar 2022 (top-down)
+31734519,Collineau,2020,Canada,broiler chickens,prevalence,prev_stage,pre-harvest (day 36),,model output (this study)
+31734519,Collineau,2020,Canada,broiler chickens,prevalence,prev_value,23.5%,23.5,model output (this study)
+31734519,Collineau,2020,Canada,broiler chickens,prevalence,prev_source,model output (this study),,model output (this study)
+31734519,Collineau,2020,Canada,broiler chickens,concentration,conc_unit,log CFU/g feces,,model output (this study)
+31734519,Collineau,2020,Canada,broiler chickens,concentration,conc_mean,3.579,3.579,model output (this study)
+31734519,Collineau,2020,Canada,broiler chickens,concentration,conc_source,model output (this study),,model output (this study)
+31734519,Collineau,2020,Canada,broiler chickens,inactivation,inact_log_reduction,cleaning+disinf 5 or 7 log reduction,,Luyckx 2015; Payne 2005
+31734519,Collineau,2020,Canada,broiler chickens,inactivation,inact_source,Luyckx 2015; Payne 2005,,Luyckx 2015; Payne 2005
+31734519,Collineau,2020,Canada,broiler chickens,dose_response,dr_model,exponential (bird infection),,meta-analysis chicken infection exps
+31734519,Collineau,2020,Canada,broiler chickens,dose_response,dr_r,age-dep 1.1e-3/1.1e-4/1.07e-9,,meta-analysis chicken infection exps
+31734519,Collineau,2020,Canada,broiler chickens,dose_response,dr_source,meta-analysis chicken infection exps,,meta-analysis chicken infection exps
+31734519,Collineau,2020,Canada,broiler chickens,risk_output,validated,yes,,Bailey 2002; Siemon 2007; Berghaus 2013
+31734519,Collineau,2020,Canada,broiler chickens,risk_output,validation_source,Bailey 2002; Siemon 2007; Berghaus 2013,,Bailey 2002; Siemon 2007; Berghaus 2013
+12022671,Hope,2002,United States,shell eggs and egg products,prevalence,prev_stage,egg production (flock),,Egg Production module
+12022671,Hope,2002,United States,shell eggs and egg products,prevalence,prev_value,"1/20,000 eggs",,Egg Production module
+12022671,Hope,2002,United States,shell eggs and egg products,prevalence,prev_source,Egg Production module,,Egg Production module
+12022671,Hope,2002,United States,shell eggs and egg products,concentration,conc_unit,SE CFU per egg,,"range 1-400, most <40 per egg"
+12022671,Hope,2002,United States,shell eggs and egg products,concentration,conc_source,"range 1-400, most <40 per egg",,"range 1-400, most <40 per egg"
+12022671,Hope,2002,United States,shell eggs and egg products,consumption,cooking_storage,storage retail+home; 16 pathways,,
+12022671,Hope,2002,United States,shell eggs and egg products,dose_response,dr_model,stochastic dose-response,,Public Health Outcomes module
+12022671,Hope,2002,United States,shell eggs and egg products,dose_response,dr_source,Public Health Outcomes module,,Public Health Outcomes module
+12022671,Hope,2002,United States,shell eggs and egg products,risk_output,predicted_risk,"661,633",661633.0,"CDC surveillance (Pascal 637,000/yr)"
+12022671,Hope,2002,United States,shell eggs and egg products,risk_output,risk_unit,illnesses/year,,"CDC surveillance (Pascal 637,000/yr)"
+12022671,Hope,2002,United States,shell eggs and egg products,risk_output,validated,yes,,"CDC surveillance (Pascal 637,000/yr)"
+12022671,Hope,2002,United States,shell eggs and egg products,risk_output,validation_source,"CDC surveillance (Pascal 637,000/yr)",,"CDC surveillance (Pascal 637,000/yr)"
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,prevalence,prev_stage,within-batch prevalence (imports),,literature baseline (Table I)
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,prevalence,prev_value,3.8-59.4% by country/product,,literature baseline (Table I)
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,prevalence,prev_source,literature baseline (Table I),,literature baseline (Table I)
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,concentration,conc_unit,log10 CFU/g,,lit; log10 conc Gaussian fit
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,concentration,conc_dist,Normal (log10 conc),,lit; log10 conc Gaussian fit
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,concentration,conc_mean,varies -1.77 to 1.86,,lit; log10 conc Gaussian fit
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,concentration,conc_sd,0.19-1.11,,lit; log10 conc Gaussian fit
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,concentration,conc_source,lit; log10 conc Gaussian fit,,lit; log10 conc Gaussian fit
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,cross_contamination,cross_contam_dist,discrete 55 values (Van Asselt 2008),,Van Asselt et al. 2008 (Dutch kitchens)
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,cross_contamination,cross_contam_source,Van Asselt et al. 2008 (Dutch kitchens),,Van Asselt et al. 2008 (Dutch kitchens)
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,consumption,serving_size_g,189,189.0,
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,consumption,serving_size_dist,"Lognormal(189,127) trunc 1000g",,
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,consumption,cooking_storage,frozen; recontamination post-cooking,,
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,dose_response,dr_beta,51.45,51.45,WHO/FAO 2002
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,dose_response,dr_source,WHO/FAO 2002,,WHO/FAO 2002
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,risk_output,predicted_risk,26.8 (k=1); 12.3 (k=3); 8.3 (k=5),,observed BNMC 2015-2019
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,risk_output,risk_unit,MRRR %,,observed BNMC 2015-2019
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,risk_output,validated,yes,,observed BNMC 2015-2019
+36617468,Hantash,2023,Jordan,imported frozen poultry meat,risk_output,validation_source,observed BNMC 2015-2019,,observed BNMC 2015-2019
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),prevalence,prev_stage,retail,,retail sampling + AST + AMR genes
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),prevalence,prev_value,QR 28.4% (traditional market) / 1.9% (modern supermarket),,retail sampling + AST + AMR genes
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),prevalence,prev_dist,"Beta(s+1, n-s+1)",,retail sampling + AST + AMR genes
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),prevalence,prev_dist_params,"traditional market n=100, modern n=50",,retail sampling + AST + AMR genes
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),prevalence,prev_source,retail sampling + AST + AMR genes,,retail sampling + AST + AMR genes
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),concentration,conc_unit,CFU/g,,MPN count
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),concentration,conc_dist,point estimate (mean),,MPN count
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),concentration,conc_mean,QR 346 (traditional market) / 0.02 (modern supermarket),,MPN count
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),concentration,conc_source,MPN count,,MPN count
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),inactivation,inact_D_ref,D64=0.48 min,,cooking 64°C 2 min
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),inactivation,inact_log_reduction,"4.17 (=t/D64, 64C 2min)",,cooking 64°C 2 min
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),inactivation,inact_source,cooking 64°C 2 min,,cooking 64°C 2 min
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),consumption,serving_size_g,14.12 (mean)/58.28 (97.5th),,
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),consumption,serving_size_dist,Triangular,,
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),consumption,frequency,daily (g/person/day),,
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),consumption,cooking_storage,cooked (64°C 2 min),,
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),dose_response,dr_model,Beta-Poisson,,FAO/WHO 2002 (eq. 8)
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),dose_response,dr_alpha,0.1324,0.1324,FAO/WHO 2002 (eq. 8)
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),dose_response,dr_beta,51.45,51.45,FAO/WHO 2002 (eq. 8)
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),dose_response,dr_source,FAO/WHO 2002 (eq. 8),,FAO/WHO 2002 (eq. 8)
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),risk_output,predicted_risk,PI: QR 2.2e-8~3.1e-4; susceptible 1.8e-4~3.2e-4,,
+36230018,Pulsrikarn C,2022,Thailand (Chiang Mai),pork (retail),risk_output,risk_unit,illness probability/person/day (per serving),,
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),prevalence,prev_stage,culture pond water (wastewater),,USEPA 2012 standard + literature
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),prevalence,prev_value,"pond-water Salmonella concentration (CFU/100mL, up to 4e4)",,USEPA 2012 standard + literature
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),prevalence,prev_source,USEPA 2012 standard + literature,,USEPA 2012 standard + literature
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),concentration,conc_unit,CFU/L (pond water) -> L/g enrichment ratio,,literature review bioaccumulation ratios
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),concentration,conc_dist,bioaccumulation ratio a_flesh/a_vein (Table 2),,literature review bioaccumulation ratios
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),concentration,conc_mean,pond water -> shrimp-body enrichment (wastewater culture),,literature review bioaccumulation ratios
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),concentration,conc_source,literature review bioaccumulation ratios,,literature review bioaccumulation ratios
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),inactivation,inact_log_reduction,cooking/irradiation log removal (scenario-specific),,cooking + γ-irradiation scenarios
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),inactivation,inact_source,cooking + γ-irradiation scenarios,,cooking + γ-irradiation scenarios
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),consumption,serving_size_g,USEPA EFH 1.24 servings/week (median),,
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),consumption,frequency,13.5% of meals are shrimp,,
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),consumption,cooking_storage,raw/undercooked risk scenarios,,
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),dose_response,dr_model,Beta-Poisson,,"Haas 1999 (p.401), McCullough-Eisele feeding (infection endpoint)"
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),dose_response,dr_alpha,0.3126,0.3126,"Haas 1999 (p.401), McCullough-Eisele feeding (infection endpoint)"
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),dose_response,dr_beta,2884,2884.0,"Haas 1999 (p.401), McCullough-Eisele feeding (infection endpoint)"
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),dose_response,dr_source,"Haas 1999 (p.401), McCullough-Eisele feeding (infection endpoint)",,"Haas 1999 (p.401), McCullough-Eisele feeding (infection endpoint)"
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),risk_output,predicted_risk,median annual infection probability 8.03e-13 (S1) ~ 6.58e-5 (S8); 95th >1e-4 (undercooked/no irradiation),,
+30525084,Hamilton,2018,"USA (imported, wastewater-fed ponds)",shrimp (aquaculture),risk_output,risk_unit,annual infection probability,,
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",prevalence,prev_stage,retail/market (cut pork),,pig value-chain sampling culture
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",prevalence,prev_value,"44.4% (carcass 41.7%, pen 33.3%)",,pig value-chain sampling culture
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",prevalence,prev_dist_params,n=302,,pig value-chain sampling culture
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",prevalence,prev_source,pig value-chain sampling culture,,pig value-chain sampling culture
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",concentration,conc_unit,CFU/g (MPN),,MPN count
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",concentration,conc_dist,"initial ~10, after cooking 0.047~1.0",,MPN count
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",concentration,conc_mean,10 (raw cut pork),,MPN count
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",concentration,conc_source,MPN count,,MPN count
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",inactivation,inact_log_reduction,10 -> 0.047~1.0 CFU/g (cooking + hand-washing scenarios),,boiling + kitchen cross-contamination scenarios
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",inactivation,inact_source,boiling + kitchen cross-contamination scenarios,,boiling + kitchen cross-contamination scenarios
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",cross_contamination,cross_contam_source,cutting board / knife / hand scenarios,,cutting board / knife / hand scenarios
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",consumption,serving_size_g,20-200 g/meal (by age group),,
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",consumption,frequency,by age group (20.29-60.76 g),,
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",consumption,cooking_storage,boiled,,
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",dose_response,dr_model,Beta-Poisson,,Teunis et al. 2010 (P=1-(1+dose/b)^-a)
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",dose_response,dr_alpha,0.0085,0.0085,Teunis et al. 2010 (P=1-(1+dose/b)^-a)
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",dose_response,dr_beta,3.14,3.14,Teunis et al. 2010 (P=1-(1+dose/b)^-a)
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",dose_response,dr_source,Teunis et al. 2010 (P=1-(1+dose/b)^-a),,Teunis et al. 2010 (P=1-(1+dose/b)^-a)
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",risk_output,predicted_risk,annual incidence 17.7% (90% CI 0.89-45.96),,
+27837223,Sinh Dang-Xuan,2017,"Vietnam (Hung Yen, urban)","pork (boiled, smallholder value chain)",risk_output,risk_unit,annual illness/person (annual incidence),,
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),prevalence,prev_stage,post-harvest (finished nuts),,finished-nut sampling (100 g)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),prevalence,prev_value,"0.61% (3-yr mean, 100-g samples); floaters 2.0% / sinkers 0.37%",,finished-nut sampling (100 g)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),prevalence,prev_dist_params,Harris 2016 3-year surveillance,,finished-nut sampling (100 g)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),prevalence,prev_source,finished-nut sampling (100 g),,finished-nut sampling (100 g)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),concentration,conc_unit,log CFU/g,,positive-nut concentration (literature + surveillance)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),concentration,conc_dist,"Lognormal(2.61, 1.13)",,positive-nut concentration (literature + surveillance)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),concentration,conc_mean,2.61 (positive nuts),,positive-nut concentration (literature + surveillance)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),concentration,conc_sd,1.13,1.13,positive-nut concentration (literature + surveillance)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),concentration,conc_source,positive-nut concentration (literature + surveillance),,positive-nut concentration (literature + surveillance)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),growth,growth_source,"no growth (low a_w, low-temperature storage)",,"no growth (low a_w, low-temperature storage)"
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),inactivation,inact_log_reduction,roasting 0-4-log (scenario-specific),,rotary roaster log removal
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),inactivation,inact_source,rotary roaster log removal,,rotary roaster log removal
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),consumption,serving_size_g,"30 g (kernels, CFR 2015)",,
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),consumption,frequency,US annual consumption,,
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),consumption,cooking_storage,"eaten raw (no cooking kill), low-temperature dry storage",,
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002 (outbreak data)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002 (outbreak data)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),dose_response,dr_beta,51.45,51.45,WHO/FAO 2002 (outbreak data)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),dose_response,dr_source,WHO/FAO 2002 (outbreak data),,WHO/FAO 2002 (outbreak data)
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),risk_output,predicted_risk,"1.4 cases/billion servings; <1 case/year (US), >1 case/year on average (incl. production)",,
+28648297,Lambertini,2017,"USA (California, produced + consumed)",pistachios (inshell + kernel),risk_output,risk_unit,cases/year (US national) + cases/billion servings,,
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),prevalence,prev_stage,retail (ground pork),,Chengdu supermarket/farmers-market surveillance (n=?)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),prevalence,prev_value,69.64% (95%CI 60.2–78.0),,Chengdu supermarket/farmers-market surveillance (n=?)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),prevalence,prev_source,Chengdu supermarket/farmers-market surveillance (n=?),,Chengdu supermarket/farmers-market surveillance (n=?)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),concentration,conc_unit,log CFU/g,,quantitative culture (mean)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),concentration,conc_mean,-0.164,-0.164,quantitative culture (mean)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),concentration,conc_source,quantitative culture (mean),,quantitative culture (mean)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),growth,growth_model,transport + home-storage growth,,transport time (supermarket 54 min / farmers market) + home storage
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),growth,growth_source,transport time (supermarket 54 min / farmers market) + home storage,,transport time (supermarket 54 min / farmers market) + home storage
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),inactivation,inact_log_reduction,cooking -> elimination (0); frozen -20°C survival,,generic cooking (FAO/WHO 2002)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),inactivation,inact_source,generic cooking (FAO/WHO 2002),,generic cooking (FAO/WHO 2002)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),cross_contamination,cross_contam_source,kitchen cross-contamination (cutting board / knife),,kitchen cross-contamination (cutting board / knife)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),consumption,serving_size_g,305.50±407.26 g/meal (n=159),,
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),consumption,frequency,supermarket 1.9 times/week; farmers market 8.1 times/week,,
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),consumption,cooking_storage,cooking (elimination) + frozen -20°C,,
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),dose_response,dr_model,Beta-Poisson,,FAO/WHO 2002 (Pill)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),dose_response,dr_alpha,0.1324,0.1324,FAO/WHO 2002 (Pill)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),dose_response,dr_beta,51.45,51.45,FAO/WHO 2002 (Pill)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),dose_response,dr_source,FAO/WHO 2002 (Pill),,FAO/WHO 2002 (Pill)
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),risk_output,predicted_risk,daily illness probability 9.43E-05; 3442 cases/million/year (95% CI 3218-3666),,
+35853833,Li Bai,2023,"China (Chengdu, Sichuan)",ground pork (household),risk_output,risk_unit,cases/million/year (annual),,
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),prevalence,prev_stage,slaughter/transport/rail-hanging,,quantitative sampling at each slaughter stage
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),prevalence,prev_value,"20-40% (transport 28-32%, rail-hanging 16-36%)",,quantitative sampling at each slaughter stage
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),prevalence,prev_dist_params,n=820,,quantitative sampling at each slaughter stage
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),prevalence,prev_source,quantitative sampling at each slaughter stage,,quantitative sampling at each slaughter stage
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),concentration,conc_unit,log MPN/g,,820-sample count
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),concentration,conc_dist,"Normal (plant A 1.07,0.28; plant B 1.23,0.47)",,820-sample count
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),concentration,conc_mean,1.15±0.55 log MPN/g,,820-sample count
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),concentration,conc_sd,0.55,0.55,820-sample count
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),concentration,conc_source,820-sample count,,820-sample count
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),growth,growth_model,shelf-life growth sqrt(μ)=0.0243·T-0.0825,,Velugoti et al. 2011
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),growth,growth_source,Velugoti et al. 2011,,Velugoti et al. 2011
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),risk_output,predicted_risk,exposure probability: consumer receives contaminated serving 0.011 (HACCP) vs 0.105 (no HACCP),,
+31399019,Fajardo-Guerrero,2019,Colombia (tropical),fresh pork (abattoir),risk_output,risk_unit,exposure (no dose-response / no illness risk),,
+37061185,Strickland,2023,USA,ground beef (US),prevalence,prev_stage,FSIS ground-beef surveillance,,FSIS ground-beef project data
+37061185,Strickland,2023,USA,ground beef (US),prevalence,prev_value,"(MT43 project code, LOQ 0.03 MPN/g)",,FSIS ground-beef project data
+37061185,Strickland,2023,USA,ground beef (US),prevalence,prev_dist_params,FSIS surveillance,,FSIS ground-beef project data
+37061185,Strickland,2023,USA,ground beef (US),prevalence,prev_source,FSIS ground-beef project data,,FSIS ground-beef project data
+37061185,Strickland,2023,USA,ground beef (US),concentration,conc_unit,MPN/g,,FSIS surveillance (below LOQ)
+37061185,Strickland,2023,USA,ground beef (US),concentration,conc_dist,(LOQ 0.03 MPN/g),,FSIS surveillance (below LOQ)
+37061185,Strickland,2023,USA,ground beef (US),concentration,conc_source,FSIS surveillance (below LOQ),,FSIS surveillance (below LOQ)
+37061185,Strickland,2023,USA,ground beef (US),inactivation,inact_log_reduction,cooking (equivalent time 10^-t/z),,Murphy 2004 cooking model
+37061185,Strickland,2023,USA,ground beef (US),inactivation,inact_source,Murphy 2004 cooking model,,Murphy 2004 cooking model
+37061185,Strickland,2023,USA,ground beef (US),consumption,frequency,restaurant/home,,
+37061185,Strickland,2023,USA,ground beef (US),consumption,cooking_storage,ground beef (must be fully cooked),,
+37061185,Strickland,2023,USA,ground beef (US),dose_response,dr_model,Beta-Poisson (virulence-stratified),,WHO/FAO 2002 (high virulence); low-virulence β=4729.9
+37061185,Strickland,2023,USA,ground beef (US),dose_response,dr_alpha,0.1324 (high) / other low-virulence,,WHO/FAO 2002 (high virulence); low-virulence β=4729.9
+37061185,Strickland,2023,USA,ground beef (US),dose_response,dr_beta,51.45 (high) / 4729.9 (low),,WHO/FAO 2002 (high virulence); low-virulence β=4729.9
+37061185,Strickland,2023,USA,ground beef (US),dose_response,dr_source,WHO/FAO 2002 (high virulence); low-virulence β=4729.9,,WHO/FAO 2002 (high virulence); low-virulence β=4729.9
+37061185,Strickland,2023,USA,ground beef (US),risk_output,predicted_risk,"8,980 (6,222-14,215, 90% CI) annual illness cases (US ground beef)",,
+37061185,Strickland,2023,USA,ground beef (US),risk_output,risk_unit,annual cases (US national) + DALY,,
+30144103,Gurman,2018,Australia,pork mince → burgers (home),prevalence,prev_stage,retail (pork mince),,Australian pork-mince surveillance
+30144103,Gurman,2018,Australia,pork mince → burgers (home),prevalence,prev_value,(Australian surveillance),,Australian pork-mince surveillance
+30144103,Gurman,2018,Australia,pork mince → burgers (home),prevalence,prev_source,Australian pork-mince surveillance,,Australian pork-mince surveillance
+30144103,Gurman,2018,Australia,pork mince → burgers (home),concentration,conc_unit,CFU/g,,retail pork-mince concentration
+30144103,Gurman,2018,Australia,pork mince → burgers (home),concentration,conc_source,retail pork-mince concentration,,retail pork-mince concentration
+30144103,Gurman,2018,Australia,pork mince → burgers (home),growth,growth_model,retail -> home transport temperature rise,,"transport temperature (Δt Gamma(1.77,0.55))"
+30144103,Gurman,2018,Australia,pork mince → burgers (home),growth,growth_source,"transport temperature (Δt Gamma(1.77,0.55))",,"transport temperature (Δt Gamma(1.77,0.55))"
+30144103,Gurman,2018,Australia,pork mince → burgers (home),inactivation,inact_log_reduction,cooking,,burger cooking
+30144103,Gurman,2018,Australia,pork mince → burgers (home),inactivation,inact_source,burger cooking,,burger cooking
+30144103,Gurman,2018,Australia,pork mince → burgers (home),cross_contamination,cross_contam_source,household cross-contamination,,household cross-contamination
+30144103,Gurman,2018,Australia,pork mince → burgers (home),consumption,serving_size_g,100 g (pork burger),,
+30144103,Gurman,2018,Australia,pork mince → burgers (home),consumption,cooking_storage,household cooking (burger),,
+30144103,Gurman,2018,Australia,pork mince → burgers (home),dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002
+30144103,Gurman,2018,Australia,pork mince → burgers (home),dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002
+30144103,Gurman,2018,Australia,pork mince → burgers (home),dose_response,dr_beta,51.45,51.45,WHO/FAO 2002
+30144103,Gurman,2018,Australia,pork mince → burgers (home),dose_response,dr_source,WHO/FAO 2002,,WHO/FAO 2002
+30144103,Gurman,2018,Australia,pork mince → burgers (home),risk_output,predicted_risk,1.54e-8/serving (1 case/65 million servings); annual cases derivable,,
+30144103,Gurman,2018,Australia,pork mince → burgers (home),risk_output,risk_unit,per serving (1.54e-8),,
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),prevalence,prev_stage,slaughter/retail,,EFSA baseline + member-state retail surveillance
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),prevalence,prev_value,(EFSA baseline survey + retail),,EFSA baseline + member-state retail surveillance
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),prevalence,prev_source,EFSA baseline + member-state retail surveillance,,EFSA baseline + member-state retail surveillance
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),consumption,cooking_storage,3 product types (cuts/minced/fermented RTE),,
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),dose_response,dr_beta,51.45,51.45,WHO/FAO 2002
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),dose_response,dr_source,WHO/FAO 2002,,WHO/FAO 2002
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),risk_output,predicted_risk,1e-5 ~ 1e-7/serving (3 product types); fermented RTE highest; incidence per 100k (varies by MS),,
+26857423,Vigre,2016,EU (multiple member states),pork products (cuts/minced/fermented RTE),risk_output,risk_unit,"per serving + incidence/100,000",,
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,prevalence,prev_stage,retail (packaged salad),,Dutch surveillance (mean 0.00054)
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,prevalence,prev_value,"red lettuce Beta(2,370); cabbage/carrot 0/0",,Dutch surveillance (mean 0.00054)
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,prevalence,prev_dist,Beta,,Dutch surveillance (mean 0.00054)
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,prevalence,prev_dist_params,"Beta(2,370)",,Dutch surveillance (mean 0.00054)
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,prevalence,prev_source,Dutch surveillance (mean 0.00054),,Dutch surveillance (mean 0.00054)
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,concentration,conc_unit,MPN/g,,MPN count
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,concentration,conc_mean,0.024 MPN/g,,MPN count
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,concentration,conc_source,MPN count,,MPN count
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,consumption,frequency,Dutch consumption,,
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,consumption,cooking_storage,eaten raw (no cooking),,
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,dose_response,dr_model,Beta-Poisson (Salmonella) / exponential (E. coli O157),,"Wijnands et al. (β-Poisson, parameters not extracted individually)"
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,dose_response,dr_source,"Wijnands et al. (β-Poisson, parameters not extracted individually)",,"Wijnands et al. (β-Poisson, parameters not extracted individually)"
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,risk_output,predicted_risk,Salmonella Typhimurium DT104 6.0e2 cases/year (Netherlands),,
+24674430,Pielaat,2014,Netherlands,minimally processed packaged salads,risk_output,risk_unit,cases/year (Netherlands national),,
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),prevalence,prev_stage,slaughter -> cutting -> preparation,,coupled slaughter module (26857531)
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),prevalence,prev_source,coupled slaughter module (26857531),,coupled slaughter module (26857531)
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),concentration,conc_unit,CFU/g,,slaughter-module output
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),concentration,conc_source,slaughter-module output,,slaughter-module output
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),inactivation,inact_log_reduction,preparation (cooking/fermentation),,preparation + consumption module
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),inactivation,inact_source,preparation + consumption module,,preparation + consumption module
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),cross_contamination,cross_contam_source,kitchen cross-contamination,,kitchen cross-contamination
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),consumption,cooking_storage,preparation (cuts/minced/fermented),,
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),dose_response,dr_model,Beta-Poisson (referencing eq. 5),,"dose-response (eq. 5, referenced; sibling project 26857423 uses 0.1324/51.45)"
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),dose_response,dr_source,"dose-response (eq. 5, referenced; sibling project 26857423 uses 0.1324/51.45)",,"dose-response (eq. 5, referenced; sibling project 26857423 uses 0.1324/51.45)"
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),risk_output,predicted_risk,per-serving Salmonella count (preparation + consumption module output),,
+26857651,Swart,2016,Netherlands (EU project),pork products (preparation + consumption),risk_output,risk_unit,per serving,,
+26857531,Swart,2016,EU (project),pork (slaughterhouse contamination),prevalence,prev_stage,slaughter (scalding/dehairing/rail-hanging),,slaughterhouse process modeling
+26857531,Swart,2016,EU (project),pork (slaughterhouse contamination),prevalence,prev_source,slaughterhouse process modeling,,slaughterhouse process modeling
+26857531,Swart,2016,EU (project),pork (slaughterhouse contamination),inactivation,inact_log_reduction,"dehairer exponential decay (ε3, temperature-dependent)",,scalding/dehairing process
+26857531,Swart,2016,EU (project),pork (slaughterhouse contamination),inactivation,inact_source,scalding/dehairing process,,scalding/dehairing process
+26857531,Swart,2016,EU (project),pork (slaughterhouse contamination),cross_contamination,cross_contam_source,"dehairer/conveyor contamination (β1, β2)",,"dehairer/conveyor contamination (β1, β2)"
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",prevalence,prev_stage,farm -> transport -> slaughter,,EU member-state slaughter-pig prevalence
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",prevalence,prev_source,EU member-state slaughter-pig prevalence,,EU member-state slaughter-pig prevalence
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",consumption,cooking_storage,3 product types (cuts/minced/fermented),,
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",dose_response,dr_model,dose-response module (referenced),,"dose-response module (referenced eq., infection endpoint)"
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",dose_response,dr_source,"dose-response module (referenced eq., infection endpoint)",,"dose-response module (referenced eq., infection endpoint)"
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",risk_output,predicted_risk,1e-5 ~ 1e-7/serving (infection; 3 product types),,
+27002672,Snary,2016,EU (multiple member states),"pork (pigs, farm-to-fork)",risk_output,risk_unit,per serving (infection),,
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,prevalence,prev_stage,retail pork,,market survey (multi-province)
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,prevalence,prev_value,Hunan 72.66% / Sichuan 62.34%,,market survey (multi-province)
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,prevalence,prev_source,market survey (multi-province),,market survey (multi-province)
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,concentration,conc_unit,log CFU/g,,quantitative culture
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,concentration,conc_mean,0.0079 (mean) / north 0.0247 / south 0.1520,,quantitative culture
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,concentration,conc_source,quantitative culture,,quantitative culture
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,growth,growth_model,transport + storage growth,,transport/storage conditions
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,growth,growth_source,transport/storage conditions,,transport/storage conditions
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,inactivation,inact_log_reduction,cooking,,pre-consumption cooking
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,inactivation,inact_source,pre-consumption cooking,,pre-consumption cooking
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,cross_contamination,cross_contam_source,pork-to-cutting-board transfer rate (most sensitive factor),,pork-to-cutting-board transfer rate (most sensitive factor)
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,consumption,cooking_storage,household cooking,,
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,dose_response,dr_beta,51.45,51.45,WHO/FAO 2002
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,dose_response,dr_source,WHO/FAO 2002,,WHO/FAO 2002
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,risk_output,predicted_risk,2526 cases/million/year (95% CI 2475-2578),,
+41819918,Li Bai,2026,China (Hunan/Sichuan and other provinces),retail pork,risk_output,risk_unit,annual incidence (per million),,
+41655324,Shounan Zhang,2026,China (national),pork (household),prevalence,prev_stage,retail (wet markets + supermarkets),,literature pooling
+41655324,Shounan Zhang,2026,China (national),pork (household),prevalence,prev_value,pooled 17% (7-46% across provinces),,literature pooling
+41655324,Shounan Zhang,2026,China (national),pork (household),prevalence,prev_source,literature pooling,,literature pooling
+41655324,Shounan Zhang,2026,China (national),pork (household),concentration,conc_unit,log CFU/g,,retail pork concentration
+41655324,Shounan Zhang,2026,China (national),pork (household),concentration,conc_source,retail pork concentration,,retail pork concentration
+41655324,Shounan Zhang,2026,China (national),pork (household),growth,growth_model,transport growth (0.022×(T1.w-5.93))²,,consumer transport temperature rise (Jeong 2018)
+41655324,Shounan Zhang,2026,China (national),pork (household),growth,growth_source,consumer transport temperature rise (Jeong 2018),,consumer transport temperature rise (Jeong 2018)
+41655324,Shounan Zhang,2026,China (national),pork (household),inactivation,inact_log_reduction,cooking,,household cooking
+41655324,Shounan Zhang,2026,China (national),pork (household),inactivation,inact_source,household cooking,,household cooking
+41655324,Shounan Zhang,2026,China (national),pork (household),cross_contamination,cross_contam_source,household cross-contamination,,household cross-contamination
+41655324,Shounan Zhang,2026,China (national),pork (household),consumption,frequency,wet markets 60.3% / supermarkets 39.7%,,
+41655324,Shounan Zhang,2026,China (national),pork (household),consumption,cooking_storage,18% ambient storage; household cooking,,
+41655324,Shounan Zhang,2026,China (national),pork (household),dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002
+41655324,Shounan Zhang,2026,China (national),pork (household),dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002
+41655324,Shounan Zhang,2026,China (national),pork (household),dose_response,dr_beta,51.45,51.45,WHO/FAO 2002
+41655324,Shounan Zhang,2026,China (national),pork (household),dose_response,dr_source,WHO/FAO 2002,,WHO/FAO 2002
+41655324,Shounan Zhang,2026,China (national),pork (household),risk_output,predicted_risk,"2643 cases/million/year (95% CI 2498-2790); 16,597 DALYs (15,627-17,567); MDR 91.8%",,
+41655324,Shounan Zhang,2026,China (national),pork (household),risk_output,risk_unit,cases/million + DALY,,
+38011665,Huimin Cheng,2024,China,breaded pork products,prevalence,prev_stage,processing (cutting/battering/frying),,sampling at each processing stage
+38011665,Huimin Cheng,2024,China,breaded pork products,prevalence,prev_value,cutting 66.7% / peak 60.5%; product 41.3%,,sampling at each processing stage
+38011665,Huimin Cheng,2024,China,breaded pork products,prevalence,prev_dist_params,"20/30, 26/43, 63/153",,sampling at each processing stage
+38011665,Huimin Cheng,2024,China,breaded pork products,prevalence,prev_source,sampling at each processing stage,,sampling at each processing stage
+38011665,Huimin Cheng,2024,China,breaded pork products,concentration,conc_unit,MPN/g,,MPN(USDA/FSIS)
+38011665,Huimin Cheng,2024,China,breaded pork products,concentration,conc_mean,0.1532-0.3027 (cutting) / 0.3111-0.8921 (peak),,MPN(USDA/FSIS)
+38011665,Huimin Cheng,2024,China,breaded pork products,concentration,conc_source,MPN(USDA/FSIS),,MPN(USDA/FSIS)
+38011665,Huimin Cheng,2024,China,breaded pork products,growth,growth_model,1/k=0.03568T−0.17322,,square-root model
+38011665,Huimin Cheng,2024,China,breaded pork products,growth,growth_source,square-root model,,square-root model
+38011665,Huimin Cheng,2024,China,breaded pork products,inactivation,inact_log_reduction,frying/quick-freezing; microwave thawing reduces 30.969-fold,,frying + quick-freezing + thawing
+38011665,Huimin Cheng,2024,China,breaded pork products,inactivation,inact_source,frying + quick-freezing + thawing,,frying + quick-freezing + thawing
+38011665,Huimin Cheng,2024,China,breaded pork products,consumption,cooking_storage,4°C cold chain (packaging to consumption),,
+38011665,Huimin Cheng,2024,China,breaded pork products,dose_response,dr_model,Beta-Poisson,,WHO/FAO 2002 (Pill=1-(1+DOSE/b)^-a)
+38011665,Huimin Cheng,2024,China,breaded pork products,dose_response,dr_alpha,0.1324,0.1324,WHO/FAO 2002 (Pill=1-(1+DOSE/b)^-a)
+38011665,Huimin Cheng,2024,China,breaded pork products,dose_response,dr_beta,51.45,51.45,WHO/FAO 2002 (Pill=1-(1+DOSE/b)^-a)
+38011665,Huimin Cheng,2024,China,breaded pork products,dose_response,dr_source,WHO/FAO 2002 (Pill=1-(1+DOSE/b)^-a),,WHO/FAO 2002 (Pill=1-(1+DOSE/b)^-a)
+38011665,Huimin Cheng,2024,China,breaded pork products,risk_output,predicted_risk,infection probability 5.585e-9/meal (0.001% undercooked eaten raw),,
+38011665,Huimin Cheng,2024,China,breaded pork products,risk_output,risk_unit,infection/meal,,
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),prevalence,prev_stage,live pigs/pig feces (meta),,published prevalence meta-analysis
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),prevalence,prev_value,live pigs 8.1% (5.43-11.91) / pig feces 13.29% (9.19-18.69),,published prevalence meta-analysis
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),prevalence,prev_dist_params,meta-pooled,,published prevalence meta-analysis
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),prevalence,prev_source,published prevalence meta-analysis,,published prevalence meta-analysis
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),cross_contamination,cross_contam_source,household kitchen cross-contamination,,household kitchen cross-contamination
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),consumption,cooking_storage,farm-to-consumption,,
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),dose_response,dr_model,Beta-Poisson,,Beta-Poisson (abstract gives no alpha/beta)
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),dose_response,dr_source,Beta-Poisson (abstract gives no alpha/beta),,Beta-Poisson (abstract gives no alpha/beta)
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),risk_output,predicted_risk,3.46e6 cases/year (China pork-attributable); highest in the west; S. Typhimurium first,,
+42562523,Chen Xu,2026,"China (national, regionalized)",pork (farm-to-consumption),risk_output,risk_unit,annual cases (China national),,
