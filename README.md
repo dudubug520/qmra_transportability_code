@@ -31,4 +31,8 @@ Per-serving illness probability normalized to a common endpoint, used for the le
 
 ## `QMRA_Salmonella_search_results.csv`
 
-The 108 PubMed *Salmonella* records from the primary search (columns: index, PMID, year, title, journal), used to construct the PRISMA flow (Fig. 1).
+The 152 PubMed *Salmonella* records from the primary search (columns: `pmid, year, authors, title, journal, volume, issue, pages`), used to construct the PRISMA flow (Fig. 1).
+
+## `QMRA_WoS_search_results.txt`
+
+The 356-record Web of Science (Core Collection) export of the same search string (`savedrecs.txt` format, 3-line preamble + CSV rows; columns include Title, Authors, DOI, Source Title, Publication Year). De-duplicating against `QMRA_Salmonella_search_results.csv` by DOI removes 128 shared records, leaving 380 unique records across the two databases.
