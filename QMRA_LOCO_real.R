@@ -7,8 +7,8 @@
 # Compare the two prediction errors for the held-out context.
 # Honest statement: this is a proof-of-concept, not definitive; see QMRA_LOCO_risk_normalized.csv for the risk-normalization assumptions.
 
-# Run from the directory containing this file (or set csv_path to an absolute path)
-csv_path <- "QMRA_LOCO_risk_normalized.csv"
+# Run from the repository root (so data/ paths resolve), or set csv_path to an absolute path
+csv_path <- "data/QMRA_LOCO_risk_normalized.csv"
 d <- read.csv(csv_path, stringsAsFactors = FALSE, fileEncoding = "UTF-8")
 
 covs <- c("commodity_group","climate_zone","production_sys","cold_chain","population","dr_family")
@@ -60,6 +60,34 @@ for (fam in sort(unique(d$dr_family))) {
   cat(sprintf("  %-22s n=%d  spread=%s\n", fam, length(v),
       ifelse(length(v)>=2, sprintf("%.2f", diff(range(v))), "-")))
 }
+
+# ---- DR-invariance test: LOCO restricted to the single canonical dose-response family ----
+# If the extrapolation error really resides in the exposure pathway (not the dose-response
+# choice), then holding the dose-response exactly fixed should NOT make distance weighting
+# work any better. Within this subset dr_family is constant, so the Gower distance is over
+# the five context covariates only.
+fam0 <- "fao_who_2002"
+ds <- d[d$dr_family == fam0, , drop = FALSE]
+Gs <- gower(ds, covs)
+ns <- nrow(ds)
+outs <- data.frame(pmid=ds$pmid, label=ds$label, country=ds$country,
+                   mean_dist=NA, naive_err_log10=NA, wgt_err_log10=NA, stringsAsFactors=FALSE)
+for (k in 1:ns) {
+  o <- setdiff(1:ns, k)
+  pred_naive <- mean(ds$log10_risk[o])
+  dist <- Gs[k, o]
+  w <- 1 / (dist + eps)^p
+  pred_w <- sum(w * ds$log10_risk[o]) / sum(w)
+  outs$mean_dist[k] <- mean(dist)
+  outs$naive_err_log10[k] <- abs(pred_naive - ds$log10_risk[k])
+  outs$wgt_err_log10[k]   <- abs(pred_w   - ds$log10_risk[k])
+}
+cat(sprintf("\n=== DR-invariance test: LOCO within the single canonical dose-response family (%s, n = %d) ===\n", fam0, ns))
+cat(sprintf("  risk spread within this one DR family = %.2f log10 (%.0fx)\n",
+            diff(range(ds$log10_risk)), 10^diff(range(ds$log10_risk))))
+cat(sprintf("  Naive transfer    mean log10 error = %.3f\n", mean(outs$naive_err_log10)))
+cat(sprintf("  Distance-weighted mean log10 error = %.3f\n", mean(outs$wgt_err_log10)))
+cat(sprintf("  Error ratio (weighted/naive) = %.2f\n", mean(outs$wgt_err_log10)/mean(outs$naive_err_log10)))
 
 # ---- Figure: error vs context distance ----
 pdf("QMRA_extrapolation_error_vs_distance_real.pdf", width=7, height=5)
